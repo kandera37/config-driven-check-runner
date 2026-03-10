@@ -1,0 +1,6 @@
+instances:
+  - name: local-secret-scan
+    repo_path: "/Users/kveit/git-secret-clean"
+    check: "secret_scan"
+    output_file: "report.json"
+    commits: 5
